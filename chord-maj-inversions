@@ -1,0 +1,16 @@
+header {
+    lesson_id = "38bfaa64-c182-4687-aa41-ed6352017343"
+    help = "idbyname-chords"
+    module = idbyname
+    have_music_displayer = yes
+    fillnum = 2
+        random_transpose = accidentals, -5, 5
+        title = _("Major chord inversions")
+        lesson_heading = _("Identify the chord inversion")
+        test = "6x"
+        test_requirement = "90%"
+}
+
+question { name=_("root") name[no]="root" chord("c' e' g'") }
+question { name=_("inv1") name[no]="inv1" chord("e' g' c''") }
+question { name=_("inv2") name[no]="inv2" chord("g' c'' e''") }
